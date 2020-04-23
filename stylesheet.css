@@ -25,7 +25,7 @@ a {
 .top-wrapper {
   padding: 150px 0 100px 0;
   background-size: cover;
-  background-image: url(http://borobudurpark.com/wp-content/uploads/2017/05/home-page-boko-1352x632.jpg);
+  background-image: url(assets/ratu-boko.jpg);
   color: white;
   text-align: center;
   animation-name: example;
@@ -35,9 +35,9 @@ a {
 }
 @keyframes example {
   0%   {}
-  25%   {background-image: url(http://borobudurpark.com/wp-content/uploads/2017/05/home-page-boko-1352x632.jpg);}
-  50%  {background-image: url(http://borobudurpark.com/wp-content/uploads/2017/05/Foto-utama-1352x632.jpg);}
-  100%  {background-image: url(http://borobudurpark.com/wp-content/uploads/2017/05/foto-utama-1352x632.jpg);}
+  25%   {background-image: url(assets/ratu-boko.jpg);}
+  50%  {background-image: url(assets/prambanan.jpg);}
+  100%  {background-image: url(assets/borobudur.jpg);}
 }
 
 .top-wrapper h1 {

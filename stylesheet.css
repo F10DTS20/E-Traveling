@@ -28,6 +28,16 @@ a {
   background-size: cover;
   color: white;
   text-align: center;
+  animation-name: example;
+  animation-duration: 9s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0%   {}
+  25%   {background-image: url(http://borobudurpark.com/wp-content/uploads/2017/05/home-page-boko-1352x632.jpg);}
+  50%  {background-image: url(http://borobudurpark.com/wp-content/uploads/2017/05/Foto-utama-1352x632.jpg);}
+  100%  {background-image: url(http://borobudurpark.com/wp-content/uploads/2017/05/foto-utama-1352x632.jpg);}
 }
 
 .top-wrapper h1 {

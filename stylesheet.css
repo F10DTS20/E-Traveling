@@ -11,18 +11,17 @@ a {
   text-decoration: none;
 }
 
-.clear {
-  clear: left;
-}
+
 
 .container {
   max-width: 1170px;
+  height: 355px;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-.top-wrapper {
+.bagian-utama {
   padding: 150px 0 100px 0;
   background-size: cover;
   background-image: url(assets/ratu-boko.jpg);
@@ -40,7 +39,7 @@ a {
   100%  {background-image: url(assets/borobudur.jpg);}
 }
 
-.top-wrapper h1 {
+.bagian-utama h1 {
   color:absolute;
   opacity: 0.7;
   font-size: 45px;
@@ -48,7 +47,7 @@ a {
   margin-bottom: 10px;
 }
 
-.top-wrapper p {
+.bagian-utama p {
 
   font-size: 15px;
   margin-bottom: 3px;
@@ -103,10 +102,10 @@ header {
 }
 
 .logo {
-  font-size:25px;
+  position: fixed;
   color:white;
   width: 124px;
-  margin-top: 20px;
+  padding: 5px 0;
 }
 
 .header-left {
@@ -131,23 +130,26 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* Tambahkan CSS untuk menu-icon */
 .menu-icon {
   color: white;
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  /* Gantikan property display ke none */
   display: none;
 }
 
 
-.lesson-wrapper {
+.extra1 {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
   background-color: #f7f7f7;
   text-align: center;
+}
+
+.video {
+  width: 100%;
+  height: auto;
 }
 
 .heading {
@@ -160,20 +162,24 @@ header {
   font-weight: normal;
 }
 
-.lesson {
+.videos {
   float: left;
-  width: 25%;
+  width: 100%;
 }
 
-.lesson-icon {
+.video-candi {
   position: relative;
 }
 
-.lesson-icon p {
+.video-candi p {
   position: absolute;
   top: 44%;
   width: 100%;
   color: white;
+}
+
+.clear{
+  clear:left;
 }
 
 .text-contents {
@@ -189,6 +195,7 @@ header {
 }
 
 .message-wrapper {
+  margin-top: 10px;
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;

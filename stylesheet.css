@@ -141,9 +141,10 @@ header {
   display: none;
 }
 
-.fa {
-  margin-right: 5px;
+.fa-bars{
+  display: none;
 }
+
 
 
 .extra1 {

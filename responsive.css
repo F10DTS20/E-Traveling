@@ -12,25 +12,47 @@
   .heading h2 {
     font-size: 20px;
   }
+  
+  .teams {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .teams1 {
+    width: 100%;
+    margin-bottom: 50px;
+	padding: 4px 200px 60px;
+  }
+  .team {
+    width: 100%;
+   
+  }
+  footer {
+	width: 100%;
+  }
+  
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+	.teams {
+    width: 100%;
+  }
+   .teams1 {
+    width: 100%;
+    padding: 4px 20px 60px;
+  }
+	
   .videos {
     width: 100%;
   }
 
+
   footer {
+	width: 100%;
     text-align: center;
   }
 
-  .btn {
-    width: 100%;
-  }
-
-  .facebook {
-    margin-bottom: 10px;
-  }
+  
 
   .bagian-utama {
     text-align: left;
@@ -39,10 +61,6 @@
 
   .header-right {
     display: none;
-  }
-
-  .video {
-    width: 100%;
   }
 
   .bagian-utama h1 {

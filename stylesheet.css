@@ -20,6 +20,17 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
+.container2{
+ 
+  height: 10px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.container2 p{
+  font-size: 10px;
+  
+}
 
 .bagian-utama {
   padding: 150px 0 100px 0;
@@ -66,14 +77,6 @@ a {
   background-color: #239b76;
 }
 
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
 
 .btn {
   padding: 12px 24px;
@@ -140,12 +143,109 @@ header {
 
 
 .extra1 {
-  padding-bottom: 80px;
+  padding-top: 0px;
+  padding-bottom: 270px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f7f7f7;
+  background-color: #cfdbe4;
   text-align: center;
 }
+
+
+.extra2 {
+  padding-bottom: 270px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+  text-align: center;
+  
+}
+
+
+.teams {
+  float: left;
+  width: 20%;
+  padding: 5px 15px 10px;
+  background: white;
+  border-radius:1px;
+  text-align:center;
+}
+
+.teams1 {
+  float: left;
+  width: 20%;
+  padding: 5px 15px 10px;
+  background: white;
+  text-align:center;
+  
+}
+
+.pic {
+	display: inline-block;
+			width: 100%;
+			height: 100%;
+			background: white;
+			padding: 5px;
+			margin-bottom: 0px;
+			transition: all 0.5s ease 0s;
+			position: relative;
+}
+
+.teams:hover .pic 
+		{
+			background: #124c7a;
+			border-radius: 50%;
+		}
+
+.pic img{
+			width:100%;
+			height: auto;
+			border-radius:50%;
+		}
+		
+.title{
+			display: block;
+			font-size: 15px;
+			font-weight: 600px;
+			color: #1f1f1f;
+			text-transform: uppercase;
+			margin: 0 0 7px 0;
+		}
+
+.social
+		{
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+.social li a
+		{
+			background: #124c7a;
+			color: white;
+		}
+		
+.social li 
+		{
+			display: inline-block;
+			margin-right: 5px;
+		}
+.social li a
+		{
+			display: block;
+			width: 30px;
+			height: 30px;
+			line-height: 30px;
+			border-radius: 30px;
+			font-size: 15px;
+			color: white;
+			transition: all 0.5s ease 0s;
+		}
+		
+.teams:hover.social li a
+		{
+			background: #17bebb;
+			color: white;
+		}
 
 .video {
   width: 100%;
@@ -153,8 +253,8 @@ header {
 }
 
 .heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 5px;
   color: #5f5d60;
 }
 
@@ -194,12 +294,6 @@ header {
   font-weight: normal;
 }
 
-.message-wrapper {
-  margin-top: 10px;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
 
 .message {
   padding: 15px 40px;
@@ -214,16 +308,22 @@ header {
   box-shadow: none;
 }
 
+
+
 footer img {
-  width: 125px;
+  width: 119px;
 }
 
 footer p {
-  color: #b3aeb5;
-  font-size: 12px;
+  color: black;
+  font-size: 15px;
+ 
 }
 
 footer {
-  padding-top: 30px;
+  height: 65px;
+  width: 100%;
+  padding-top: 20px;
   padding-bottom: 20px;
+  
 }

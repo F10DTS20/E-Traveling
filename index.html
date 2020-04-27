@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
   </head>
   <body>
     <header>
@@ -14,19 +16,19 @@
         <div class="header-left">
           <div class="logo">
             <img src="assets/logo.png">
-            <span class="fas fa-plane menu-icon"></span>
+            <!--<span class="fas fa-plane menu-icon"></span>-->
           </div>
         </div>
-        <span class="fa fa-bars menu-icon"></span>
+        <!--<span class="fa fa-bars menu-icon"></span>-->
         <div class="header-right">
-          <a href="#">Home</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact us</a>
-          <a href="#" class="login">Log in</a>
+          <a href="#home">Home</a>
+          <a href="#blog">Blog</a>
+          <a href="#about_us">About Us</a>
+          <a href="#" class="login">Log In</a>
         </div>
       </div>
     </header>
-    <div class="bagian-utama">
+    <div id="home" class="bagian-utama">
       <div class="container">
         <h1>WISATA CANDI YOGYAKARTA</h1>
         <h1>REKOMENDASI WISATA BUDAYA CANDI - CANDI YANG CANTIK DAN KEREN.</h1>
@@ -36,8 +38,7 @@
         
         </div>
       </div>
-    </div>
-    <div class="extra1">
+    <div id="blog" class="extra1">
       <div class="container">
         <div class="heading">
           <h2>Berikut 9 Candi di Yogyakarta, yang bisa menjadi alternatif liburan kamu.</h2>
@@ -45,8 +46,9 @@
         <div class="con-video">
           <div class="videos">
             <div class="video-candi">
-              <video width="100%" controls>
+              <video width="600" controls>
               	<source src="assets/video-etraveller.mp4" type="video/mp4">
+				<source src="assets/video-etraveller.ogg" type="video/ogg">
               </video>
             </div>
              <p class="text-contents">Bila anda berlibur ke Yogyakarta, jangan sampai melewatkan kecantikan panorama dari candi-candi di Jogja nan menawan ini.</p>
@@ -55,19 +57,86 @@
         </div>
       </div>
     </div>
-    <div class="message-wrapper">
+    <div id="about_us" class="extra2">
       <div class="container">
         <div class="heading">
-          <h2>Apakah anda siap untuk menjadi programer yang handal?</h2>
-          <h3>Ayo belajar coding, ayo belajar menjadi lebih kreatif!</h3>
+        <h1>About us</h1>
+		<p>Kami tim F10 peserta "Program Online Academy" dari Digital Talent Scholarship 2020. Program ini bekerja sama dengan Progate Indonesia sebagai platform pembelajaran koding khususnya dalam pelatihan HTML & CSS.</p>
+		<h2>Our Team</h2>
         </div>
-        <span class="btn message">Mulai Belajar</span>
-      </div>
+      <!-- <span class="btn message">Mulai Belajar</span> -->
+		
+		<div class="our-team">
+			<div class="teams">
+				<div class="team">
+					<div class="pic">
+						<img src="assets/Emptyprofile.jpg" alt="">
+					</div>
+					<h3 class="title">M. Ilmi Nor A</h3>
+					<ul class="social">
+						<li><a href="" class=" fa fa-facebook"></a></li>
+						<li><a href="" class=" fa fa-twitter"></a></li>
+						<li><a href="" class=" fa fa-instagram"></a></li>
+				</div>
+			</div>
+			<div class="teams">
+				<div class="team">
+					<div class="pic">
+						<img src="assets/septian.jpg" alt="">
+					</div>
+					<h3 class="title">M Nur Septian</h3>
+					<ul class="social">
+						<li><a href="https://facebook.com/vhieanz.septian" class=" fa fa-facebook"></a></li>
+						<li><a href="https://twitter.com/septianmns" class=" fa fa-twitter"></a></li>
+						<li><a href="https://www.instagram.com/septmns" class=" fa fa-instagram"></a></li>
+				</div>
+			</div>
+			<div class="teams">
+				<div class="team">
+					<div class="pic">
+						<img src="assets/mia.jpg" alt="">
+					</div>
+					<h3 class="title">Mia Kastina</h3>
+					<ul class="social">
+						<li><a href="https://web.facebook.com/miakastina.96" class=" fa fa-facebook"></a></li>
+						<li><a href="https://twitter.com/miakastina962" class=" fa fa-twitter"></a></li>
+						<li><a href="https://www.instagram.com/miakastina.anwar" class=" fa fa-instagram"></a></li>
+				</div>
+			</div>
+			<div class="teams">
+				<div class="team">
+					<div class="pic">
+						<img src="assets/Emptyprofile.jpg" alt="">
+					</div>
+					<h3 class="title">Moses Prastio S</h3>
+					<ul class="social">
+						<li><a href="" class=" fa fa-facebook"></a></li>
+						<li><a href="" class=" fa fa-twitter"></a></li>
+						<li><a href="" class=" fa fa-instagram"></a></li>
+				</div>
+			</div>
+			<div class="teams">
+				<div class="team">
+					<div class="pic">
+						<img src="assets/afip.jpg" alt="">
+					</div>
+					<h3 class="title">M. Afif Pulungan</h3>
+					<ul class="social">
+						<li><a href="https://web.facebook.com/muhammad.pulungan.58" class=" fa fa-facebook"></a></li>
+						<li><a href="https://twitter.com/mapulungan" class=" fa fa-twitter"></a></li>
+						<li><a href="https://www.instagram.com/afippulungan08/" class=" fa fa-instagram"></a></li>
+				</div>
+			</div>
+			</div>
+			
+		</div>
+	  </div>
     </div>
+
     <footer>
-      <div class="container">
-        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-        <p>Learn to code, learn to be creative.</p>
+      <div class="container2">
+        <img src="assets/logo.png">
+        <p>F10_DTS20 &copy; 2020 E-Traveller. All Right Reserved</p>
       </div>
     </footer>
   </body>

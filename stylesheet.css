@@ -145,6 +145,9 @@ header {
   display: none;
 }
 
+.fa span {
+  display:none;
+}
 
 
 .extra1 {
